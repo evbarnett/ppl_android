@@ -27,6 +27,7 @@ data class ExerciseMap(
     @ColumnInfo(name = "day_id") val dayId: Int,
     @ColumnInfo(name = "exercise_id") val exerciseId: Int,
     @ColumnInfo(name = "position") val position: Int,
+    @ColumnInfo(name = "num_sets") val numSets: Int,
     @ColumnInfo(name = "progression_type") val progressionType: ProgressionType
 ) {
     @PrimaryKey(autoGenerate = true)
